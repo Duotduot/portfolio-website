@@ -1,0 +1,147 @@
+ body {
+    background-color: rgba(185, 94, 185, 0.774);
+} 
+
+@media screen and (max-width:100px){
+    body {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    
+}
+
+/* Navigation Bar */
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%vw;
+    justify-content: center;
+    border: 0.5px solid;
+    background-color:rgba(10, 207, 233, 0.678);
+}
+
+.home, .work, .blogposts, .blog {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+/* Name & Contact Details */
+#name {
+    margin: 0.5rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    width: 100%vw;
+    border:solid black 2px;
+    padding: 0.5rem;
+    margin: 0.5rem; 
+}
+
+#cdetails {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+
+/* Homepage Content about me */
+.me {
+    margin: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#ph, #sh, #ih {
+    margin: 0.5rem;
+    padding: 0rem;
+    text-decoration: underline;
+}
+
+/* Homepage Images */
+#p1, #s2, #i3 {
+    width: 40%;
+    border-radius: 50%;
+    margin: 0.5rem;
+    
+}
+
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Socials Icons */
+#github, #linkedin {
+    margin: 0.5rem;
+    padding:0.5rem;
+    height: 35px;
+    width: 35px;
+}
+
+#github, #linkedin, #copyright {
+    margin: 0.5rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Blogposts styling section */
+#bph1, #bph2 {
+    margin: 0.5rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main article section */
+.bparticle {
+    margin: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs {
+    margin: 0.5rem;
+    padding: 0rem;
+    text-decoration: underline;
+}
+
+/* Blog Three Styling Section */
+#btheader, #btheader2 {
+    margin: 0.5rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Sample Posts */
+.blogarticle {
+    margin: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sample Posts Images */
+#blog3one, #blog3two, #blog3three, #blog3four, #blog3five {
+    width: 40%;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+

@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Main Heading */
+#header {
+    margin: 0.5rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Articles */
+.workarticle, .studyarticle {
+    margin: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#workheader, #studyheader {
+    margin: 0.5rem;
+    padding:0.5rem;
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.resume {
+    margin: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    justify-content: center;
+}
