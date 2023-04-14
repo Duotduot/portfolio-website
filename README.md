@@ -9,7 +9,7 @@ This website is a basic site about me and what I could offer to potential employ
 
 ### Functionality / features
 I have implemented a few feautures since it is a static website. The website itself is
-functional enough to browse through. A few features include; *navigation bar* , *social buttons* , *hyperlinks* etc.
+functional enough to browse through. A few features include; *navigation bar*, *social buttons*, *hyperlinks* etc.
 
 ### Sitemap
 ![Image of the Sitemap](./docs/pw-sitemap.jpeg)
