@@ -32,21 +32,21 @@ body {
 }
 
 /* Name & Contact Details */
-#name {
+#name, #nameh2 {
     margin: 0.5rem;
     padding: 0rem;
     display: flex;
     justify-content: center;
 }
 
-#contact {
+#contact, #econtact {
     width: 100%vw;
     border:solid black 2px;
     padding: 0.5rem;
     margin: 0.5rem; 
 }
 
-#cdetails {
+#cdetails, #ecdetails {
     padding: 0.5rem;
     margin: 0.5rem;
     text-decoration: underline;
